@@ -29,7 +29,7 @@ export const skills = {
 export const projects = [
   {
     id: 1,
-    title: "POS System",
+    title: "POS Systems",
     role: "Frontend Developer",
     tech: ["Vue.js"],
     description: [
@@ -55,7 +55,7 @@ export const projects = [
   },
   {
     id: 3,
-    title: "Clinic Management System",
+    title: "Clinic Management Systems",
     role: "Full Stack Developer",
     tech: ["Laravel"],
     description: [
