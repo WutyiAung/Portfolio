@@ -13,7 +13,7 @@ export const education = [
   {
     degree: "Bachelor of Computer Science (B.C.Sc)",
     university: "University of Computer Studies (Pyay)",
-    graduationYear: "2025",
+    graduationYear: "2024",
     description: "Studied core computer science subjects including software engineering, databases, algorithms, networking, and web development fundamentals. Passed final year with Roll1 and eligible for master class programs.",
     achievements: ["Final Year Roll 1 - Master Class Eligible"]
   }
