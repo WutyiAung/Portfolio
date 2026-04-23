@@ -4,6 +4,7 @@ import { personalInfo } from '../data/personalInfo';
 import Button from '../components/Button';
 import ThemeToggle from '../components/ThemeToggle';
 import { Code, Mail, Phone, MapPin } from 'lucide-react';
+import profileImage from '../assets/weee.png';
 
 const Hero = () => {
   const containerVariants = {
@@ -125,7 +126,7 @@ const Hero = () => {
               {/* User can replace this with their photo */}
               <div className="w-full h-full rounded-full bg-dark-50 dark:bg-dark-100 flex items-center justify-center overflow-hidden">
                 {/* Add your photo to src/assets/ folder and replace with: */}
-                <img src="/src/assets/weee.png" alt="Profile" className="w-full h-full object-cover" />
+                <img src={profileImage} alt="Profile" className="w-full h-full object-cover" />
                 {/* <span className="text-4xl md:text-5xl font-bold gradient-text-primary">WA</span> */}
               </div>
             </div>
